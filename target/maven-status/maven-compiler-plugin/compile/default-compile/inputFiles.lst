@@ -1,6 +1,9 @@
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\config\ApplicationContextConfig.java
+E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\controller\CartController.java
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\model\Product.java
+E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\dao\CartDAO.java
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\dao\ProductDAO.java
+E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\controller\HomeController.java
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\controller\ProductController.java
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\controller\CategoryController.java
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\dao\CategoryDAOImpl.java
@@ -9,6 +12,8 @@ E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\controller
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\dao\ProductDAOImpl.java
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\controller\AdminController.java
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\model\Supplier.java
+E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\dao\CartDAOImpl.java
+E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\model\Cart.java
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\controller\MultiPartController.java
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\dao\SupplierDAO.java
 E:\DigiNxt\workspace\ShoppingCart\src\main\java\com\niit\shoppingcart\model\Category.java

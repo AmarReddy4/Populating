@@ -26,8 +26,8 @@ background-color:lavender;
     <div class="navbar-header">
       <a class="navbar-brand" href="http://localhost:8080/ShoppingCart"><span style="color:white;">ShoppingCart</span></a>
     </div>
-    <ul class="nav navbar-nav nav-tabs" style="margin-left:425px">
-      <li><a href="http://localhost:8080/ShoppingCart/" class="glyphicon glyphicon-home"><span style="color:lightsteelblue;"></span></a></li>
+    <ul class="nav navbar-nav nav-tabs" style="margin-left:355px">
+    <li><a href="Home"><span style="color:lightsteelblue;">Home</span></a></li>
       <li><a href="Category"><span style="color:lightsteelblue;">Category</span></a></li>
       <li><a href="Product"><span style="color:lightsteelblue;">Product</span></a></li> 
       <li><a href="Supplier"><span style="color:lightsteelblue;">Supplier</span></a></li>
@@ -52,6 +52,11 @@ background-color:lavender;
 <c:choose>
 <c:when test="${userclickedsupplier }">
 <c:import url="/WEB-INF/views/Supplier.jsp"/>
+</c:when>
+</c:choose>
+<c:choose>
+<c:when test="${userclickedhome }">
+<c:import url="/WEB-INF/views/Home.jsp"/>
 </c:when>
 </c:choose>
 </body>

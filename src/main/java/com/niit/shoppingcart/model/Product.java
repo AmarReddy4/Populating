@@ -3,8 +3,8 @@ package com.niit.shoppingcart.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+/*import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;*/
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
@@ -25,13 +25,13 @@ private int supplier_id;
 private double price;
 private String description;
 
-@ManyToOne
+/*@ManyToOne
 @JoinColumn(name="category_id",insertable=false,updatable=false,nullable=false)
 private Category category;
 
 @ManyToOne
 @JoinColumn(name="supplier_id",insertable=false,updatable=false,nullable=false)
-private Supplier supplier;
+private Supplier supplier;*/
 
 
 public String getDescription() {
@@ -65,25 +65,12 @@ public int getSupplier_id() {
 public void setSupplier_id(int supplier_id) {
 	this.supplier_id = supplier_id;
 }
-public Category getCategory() {
-	return category;
-}
-public void setCategory(Category category) {
-	this.category = category;
-}
-public Supplier getSupplier() {
-	return supplier;
-}
-public void setSupplier(Supplier supplier) {
-	this.supplier = supplier;
-}
 public double getPrice() {
 	return price;
 }
 public void setPrice(double price) {
 	this.price = price;
 }
-
 
 @Transient
 private MultipartFile image;
