@@ -1,0 +1,17 @@
+# Build output
+target/
+*.class
+*.jar
+*.war
+
+# IDE - IntelliJ
+.idea/
+*.iml
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
